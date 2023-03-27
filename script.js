@@ -21,7 +21,7 @@ $(document).ready(function () {
 
   // We'll create a for loop that will run and compare each hour with current hour and add or remove the necessary class
 
-  for (let i = 9; i < 17; i++) {
+  for (let i = 9; i < 18; i++) {
     if (dayjs().hour() === i) {
       $('#' + i).removeClass('past future');
       $('#' + i).addClass('present');
